@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="content">
+        <div class="card">
+            <div class="user">
+                <img class="imagen" src="https://images.pexels.com/photos/11677206/pexels-photo-11677206.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                <div class="profile">
+                    <div class="name" >Susana M.</div>
+                    <div class="local">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span >Breña</span>
+                    </div>
+                    <div class="carrera">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Diseño de interiores</span>
+                    </div>
+                    <div class="sede"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <form action="/BuscarAmistad/Like" method="post">
+                <input name="cod_usu" type="hidden">
+                <button class="heart" style=" border:none;"><i class="fas fa-heart"> </i> </button>
+            </form>
+            <form action="/BuscarAmistad/disLike" method="post">
+                <input name="cod_usu" type="hidden">
+                <button class="no" style=" border:none;"><i class="fas fa-times"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
